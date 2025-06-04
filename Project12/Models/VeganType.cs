@@ -10,5 +10,6 @@ namespace Project12.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public ICollection<Vegan> Vegans { get; set; }
     }
 }
