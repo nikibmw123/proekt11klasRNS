@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project12.Controllers
 {
-    internal class VeganContoller
+    public class VeganContoller
     {
         private ProjectDbContext DbContext = new ProjectDbContext();
 
